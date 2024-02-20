@@ -1,10 +1,10 @@
 <?php
 
 // Database configuration
-$servername = "localhost3306";
+$servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Db";
+$dbname = "pinkline";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

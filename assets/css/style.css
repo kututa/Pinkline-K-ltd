@@ -1224,7 +1224,7 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+/* .contact .php-email-form .error-messag {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1263,7 +1263,7 @@ section {
   border: 3px solid #18d26e;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
