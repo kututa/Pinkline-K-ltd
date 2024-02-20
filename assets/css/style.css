@@ -1,10 +1,3 @@
-/**
-* Template Name: Tempo
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -20,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #ea6981;
+  color: rgba(5, 40, 235, 0.9);
   text-decoration: none;
 }
 
@@ -75,7 +68,7 @@ h6 {
   padding: 20px 0;
 }
 
-#header .logo {
+#header .logo  img{
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -83,19 +76,26 @@ h6 {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+  
 }
 
 #header .logo a {
   color: #fff;
 }
 
+#header .logo a:hover{
+  
+  color:#e9607a ;
+}
+
 #header .logo img {
   max-height: 40px;
+  
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(5, 40, 235, 0.9);
   padding: 12px 0;
 }
 
@@ -361,13 +361,15 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/slider\ 2.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
+  /* background: rgba(rgb(51, 49, 49)); */
+
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
@@ -686,7 +688,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/CTA-BG\ \(2\).jpg") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1080,7 +1082,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
+/* .team {
   background: #fff;
   padding: 60px 0;
 }
@@ -1162,7 +1164,7 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -2010,3 +2012,39 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ff5821;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff5821;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+/* END OF CLIENTS SECTION  */
+/* 
+
+
